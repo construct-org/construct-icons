@@ -1,0 +1,240 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?jj2e81');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?jj2e81#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?jj2e81') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?jj2e81') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?jj2e81##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-alert {
+  &:before {
+    content: $icon-alert; 
+  }
+}
+.icon-arrow_down {
+  &:before {
+    content: $icon-arrow_down; 
+  }
+}
+.icon-arrow_down_solid {
+  &:before {
+    content: $icon-arrow_down_solid; 
+  }
+}
+.icon-arrow_left {
+  &:before {
+    content: $icon-arrow_left; 
+  }
+}
+.icon-arrow_left_solid {
+  &:before {
+    content: $icon-arrow_left_solid; 
+  }
+}
+.icon-arrow_right {
+  &:before {
+    content: $icon-arrow_right; 
+  }
+}
+.icon-arrow_right_solid {
+  &:before {
+    content: $icon-arrow_right_solid; 
+  }
+}
+.icon-arrow_up {
+  &:before {
+    content: $icon-arrow_up; 
+  }
+}
+.icon-arrow_up_solid {
+  &:before {
+    content: $icon-arrow_up_solid; 
+  }
+}
+.icon-back {
+  &:before {
+    content: $icon-back; 
+  }
+}
+.icon-bookmark {
+  &:before {
+    content: $icon-bookmark; 
+  }
+}
+.icon-check {
+  &:before {
+    content: $icon-check; 
+  }
+}
+.icon-checkbox_check {
+  &:before {
+    content: $icon-checkbox_check; 
+  }
+}
+.icon-checkbox_off {
+  &:before {
+    content: $icon-checkbox_off; 
+  }
+}
+.icon-checkbox_on {
+  &:before {
+    content: $icon-checkbox_on; 
+  }
+}
+.icon-circle {
+  &:before {
+    content: $icon-circle; 
+  }
+}
+.icon-circle_outline {
+  &:before {
+    content: $icon-circle_outline; 
+  }
+}
+.icon-close {
+  &:before {
+    content: $icon-close; 
+  }
+}
+.icon-collection {
+  &:before {
+    content: $icon-collection; 
+  }
+}
+.icon-error {
+  &:before {
+    content: $icon-error; 
+  }
+}
+.icon-filter {
+  &:before {
+    content: $icon-filter; 
+  }
+}
+.icon-folder {
+  &:before {
+    content: $icon-folder; 
+  }
+}
+.icon-folder_open {
+  &:before {
+    content: $icon-folder_open; 
+  }
+}
+.icon-forward {
+  &:before {
+    content: $icon-forward; 
+  }
+}
+.icon-grid {
+  &:before {
+    content: $icon-grid; 
+  }
+}
+.icon-group_list {
+  &:before {
+    content: $icon-group_list; 
+  }
+}
+.icon-home {
+  &:before {
+    content: $icon-home; 
+  }
+}
+.icon-list {
+  &:before {
+    content: $icon-list; 
+  }
+}
+.icon-menu {
+  &:before {
+    content: $icon-menu; 
+  }
+}
+.icon-menu_dots {
+  &:before {
+    content: $icon-menu_dots; 
+  }
+}
+.icon-minus {
+  &:before {
+    content: $icon-minus; 
+  }
+}
+.icon-plus {
+  &:before {
+    content: $icon-plus; 
+  }
+}
+.icon-question {
+  &:before {
+    content: $icon-question; 
+  }
+}
+.icon-refresh {
+  &:before {
+    content: $icon-refresh; 
+  }
+}
+.icon-search {
+  &:before {
+    content: $icon-search; 
+  }
+}
+.icon-settings {
+  &:before {
+    content: $icon-settings; 
+  }
+}
+.icon-sort {
+  &:before {
+    content: $icon-sort; 
+  }
+}
+.icon-square {
+  &:before {
+    content: $icon-square; 
+  }
+}
+.icon-square_outline {
+  &:before {
+    content: $icon-square_outline; 
+  }
+}
+.icon-tree {
+  &:before {
+    content: $icon-tree; 
+  }
+}
+.icon-triangle {
+  &:before {
+    content: $icon-triangle; 
+  }
+}
+.icon-triangle_outline {
+  &:before {
+    content: $icon-triangle_outline; 
+  }
+}
+
