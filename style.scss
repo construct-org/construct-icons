@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?jj2e81');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?jj2e81#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?jj2e81') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?jj2e81') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?jj2e81##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?3mxm43');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?3mxm43#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?3mxm43') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?3mxm43') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?3mxm43##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-triangle_outline {
+  &:before {
+    content: $icon-triangle_outline; 
+  }
+}
 .icon-alert {
   &:before {
     content: $icon-alert; 
@@ -82,6 +87,11 @@
     content: $icon-bookmark; 
   }
 }
+.icon-bookmark_outline {
+  &:before {
+    content: $icon-bookmark_outline; 
+  }
+}
 .icon-check {
   &:before {
     content: $icon-check; 
@@ -120,6 +130,11 @@
 .icon-collection {
   &:before {
     content: $icon-collection; 
+  }
+}
+.icon-construct {
+  &:before {
+    content: $icon-construct; 
   }
 }
 .icon-error {
@@ -230,11 +245,6 @@
 .icon-triangle {
   &:before {
     content: $icon-triangle; 
-  }
-}
-.icon-triangle_outline {
-  &:before {
-    content: $icon-triangle_outline; 
   }
 }
 
